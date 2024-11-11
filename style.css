@@ -1,0 +1,44 @@
+/* Загальні стилі для всього сайту */
+body {
+    font-family: Arial, sans-serif; /* Основний шрифт */
+    background-color: #f4f4f9; /* Світлий фон */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Текст темного кольору для контрасту */
+}
+
+/* Стиль для заголовка */
+#title {
+    font-size: 36px; /* Великий шрифт для заголовка */
+    color: #2c3e50; /* Темно-синій колір */
+    text-align: center; /* Центрування заголовка */
+    margin-top: 20px;
+}
+
+/* Стиль для основного тексту */
+.bio {
+    font-size: 18px;
+    color: #555; /* Світло-сірий колір тексту */
+    line-height: 1.6; /* Висота рядка */
+    text-align: justify; /* Вирівнювання тексту по ширині */
+    margin: 20px;
+    padding: 0 15px;
+}
+
+/* Стиль для футера */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #2c3e50;
+    color: white;
+}
+
+footer a {
+    color: #ecf0f1; /* Світло-сірий колір для посилання */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline; /* Підкреслення при наведенні */
+}
